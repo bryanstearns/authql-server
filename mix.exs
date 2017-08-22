@@ -22,8 +22,14 @@ defmodule Authql.Mixfile do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      # {:dep_from_hexpm, "~> 0.3.0"},
-      # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"},
+      {:absinthe, "~> 1.3.0"},
+      {:absinthe_ecto, "~> 0.1.0"},
+      {:absinthe_plug, "~> 1.3.1"},
+      {:bcrypt_elixir, "~> 0.12.1"},
+      {:comeonin, "~> 4.0.0"},
+      {:poison, ">= 3.1.0"},
+      {:postgrex, ">= 0.0.0"},
+      {:timex, "~> 3.1.24"}
     ]
   end
 end
